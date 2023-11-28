@@ -1,17 +1,11 @@
-# Set Cogo Point Description from GIS Field Value
+# Rotate linked label to a GIS field value
 
-Set a Civil 3D Cogo point description from an ArcGIS field value. For example a Layer displaying spot elevations from ArcGIS Field Maps
-
-Uses the following ArcGIS for AutoCAD Lisp API Methods
-
-* ```esri_featurelayer_select```
-* ```esri_attributes_get```
-* ```esri_label_get```
+This will rotate a linked label to a value in a GIS field on the linked feature.
 
 ## Use cases
 
-* You want to keep the label rotation in line with that of the GIS label rotation through the use of a label rotation attribute field. 
-* You want to angle a label to match a valve rotation in the drawing based on a field value
+You want to keep the label rotation in line with that of the GIS label rotation through the use of a label rotation attribute field. 
+You want to angle a label to match a valve rotation in the drawing based on a field value
 
 ## Workflow
 
