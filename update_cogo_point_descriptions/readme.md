@@ -2,10 +2,16 @@
 
 This will rotate a linked label to a value in a GIS field on the linked feature.
 
+Uses the following ArcGIS for AutoCAD Lisp API Methods
+
+* ```esri_featurelayer_select```
+* ```esri_attributes_get```
+* ```esri_label_get```
+
 ## Use cases
 
-You want to keep the label rotation in line with that of the GIS label rotation through the use of a label rotation attribute field. 
-You want to angle a label to match a valve rotation in the drawing based on a field value
+* You want to keep the label rotation in line with that of the GIS label rotation through the use of a label rotation attribute field. 
+* You want to angle a label to match a valve rotation in the drawing based on a field value
 
 ## Workflow
 
