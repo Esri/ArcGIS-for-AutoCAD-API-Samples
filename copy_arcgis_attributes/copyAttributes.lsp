@@ -1,7 +1,0 @@
-(defun c:copyArcGISAttributes ()
-  (setq featureLayer (getstring "Name of Feature Layer? : "))
-  (setq sourceEntity (car(entsel "Select the source entity: ")))
-  (setq destEntity (car(entsel "\n Select the destination entity: ")))
-  (setq sourceAttributes (esri_attributes_get sourceEntity ))
-  (esri_attributes_set destEntity featureLayer sourceAttributes)
-)
