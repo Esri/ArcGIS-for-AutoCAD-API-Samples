@@ -37,18 +37,6 @@ This example rotates AutoCAD blocks inserts that represent electric transformers
 
 ArcGIS for AutoCAD AutoLISP sample RotateBlocks.lsp
 ```LISP
-;Description:
-;============
-;This sample routine rotates block entities to a value defined in an ArcGIS attribute.
-;
-;Inputs:  
-;========
-;Name of feature layer, name of attribute field with rotation values
-;
-;Outputs:
-;========
-;None
-
 (defun rotateBlocks (flName rotAttName)
   
   ; Choose and select the feature layer that contains the blocks with rotation attributes
@@ -73,14 +61,14 @@ ArcGIS for AutoCAD AutoLISP sample RotateBlocks.lsp
     )
     (setq rotValue (cdr (nth 0 rotValue)))
     
-    ; Set the rotation value to float if the rotation value is text
+    ; Convert the rotation value to float if the rotation value is text
     (cond
       ((= (type rotValue) 'STR )
         (setq rotValue (atof rotValue))
       )
     )      
 
-    ; Rotate the block with the rotation value
+    ; Convert the rotation value from degrees to radians and set the rotation value on the entity
     (setq rotValueRadians (* pi (/ rotValue 180.0)))
     (setq ed (entget entName))
     (entmod (subst (cons 50 rotValueRadians)(assoc 50 ed) ed))
