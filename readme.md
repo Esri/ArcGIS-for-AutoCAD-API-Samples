@@ -2,7 +2,7 @@
 
 ![samples_header](./Resources/Images/samples_header.png)
 
-Here are a set of simple samples that show you how to accomplish different mapping and GIS tasks with the ArcGIS for AutoCAD API. This projects goal is to inspire you to develop your own custom AutoLISP code, enhancing your projects and workflows.
+Welcome to our collection of samples that demonstrate the capabilities of the ArcGIS for AutoCAD API. This projects goal is to inspire you to develop your own ArcGIS for AutoCAD customizations, enhancing your projects and workflows.
 
 Below you will find a series of samples to inspire your own development. Each sample demonstrates how to use the ArcGIS for AutoCAD API functions to automate common workflows using real world examples. 
 
@@ -39,7 +39,7 @@ Below you will find a series of samples to inspire your own development. Each sa
 
 * [ArcGIS for AutoCAD API Documentation](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/automation.htm)
 * [ArcGIS for AutoCAD Resources](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/resources)
-* [Autodesk Developer API resources](https://aps.autodesk.com/developer/overview/autocad)
+* [Autodesk Developer API Resources](https://aps.autodesk.com/developer/overview/autocad)
 
 ## Issues
 

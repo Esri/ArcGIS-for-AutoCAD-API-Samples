@@ -12,8 +12,6 @@ The AutoCAD sample drawing contains a document feature layer comprised of polygo
 
 ## Explore the sample
 
-To better understand how this sample works follow.... To walk through the use case presented in this sample download the lisp and the sample drawing file and follow the steps below (REVIST)
-
 1. Open the CopyAttributes_Sample.dwg and load the CopyAttributes.lsp file
 
 2. Add a new house to our housing plan by drawing a closed polyline on the AutoCAD layer "Houses"
