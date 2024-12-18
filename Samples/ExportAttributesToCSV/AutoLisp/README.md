@@ -9,9 +9,9 @@ This example exports home attributes from Louisville, Kentucky to a well-formatt
 
 ## Use the sample  
 
-1. Open the [ExportToCSV_Sample.dwg](ExportToCSV_Sample.dwg) file and load the [ExportToCSV.lsp](ExportToCSV.lsp)  file.
+1. Open the [ExportToCSV_Sample.dwg](ExportToCSV_Sample.dwg) drawing and load the [ExportToCSV.lsp](ExportToCSV.lsp)  file.
 
-3. To better understand our sample drawing, open the attribute table of the "Houses" layer review the list of attributes and field names.
+3. To better understand our sample drawing, open the attribute table of the "Houses" layer and review the list of attributes and field names.
 
 4. To export these attributes to a CSV run the ```EXPORTTOCSV``` command. Select a file path where the file should be written to. 
 
