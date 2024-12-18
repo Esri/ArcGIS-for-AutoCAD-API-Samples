@@ -19,7 +19,7 @@ This example updates Civil 3D COGO point descriptions for trees in Redlands, Cal
 
    
 
-3. To update the COGO point descriptions run the ```updateCOGOPointsFromField``` command. Use the "TreeGenus" field to update the values on the points from the "TreeGenus" layer. 
+3. To update the COGO point descriptions run the ```updateCOGOPointsFromField``` command. Use the "TreeGenus" field to update the values on the points from the "Trees_Redlands" layer. 
 
    
 
