@@ -4,7 +4,7 @@
 
 Welcome to our collection of samples that demonstrate the capabilities of the ArcGIS for AutoCAD API. This projects goal is to inspire you to develop your own ArcGIS for AutoCAD customizations, enhancing your projects and workflows.
 
-Below you will find a series of samples to inspire your own development. Each sample demonstrates how to use the ArcGIS for AutoCAD API functions to automate common workflows using real world examples. 
+Below you will find a series of samples that demonstrate how to use the ArcGIS for AutoCAD API methods to automate common workflows using real world examples. Each sample includes the following:
 
 * A description of the sample
 
@@ -18,9 +18,9 @@ Below you will find a series of samples to inspire your own development. Each sa
 
   
 ## Samples
-- [Calculate New Field](Samples/CalculateNewField/AutoLisp) \- Calculates the values of a new attribute field by applying a mathematical expression onto the values of other fields.
-- [Copy Attributes](Samples/CopyAttributes/AutoLisp)  \- Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
-- [Export Attributes To CSV](Samples/ExportAttributesToCSV/AutoLisp)  \- Exports a feature layers attributes to a CSV file.
+- [Calculate New Field](Samples/CalculateNewField/AutoLisp) - Calculates the values of a new attribute field by applying a mathematical expression onto the values of other fields.
+- [Copy Attributes](Samples/CopyAttributes/AutoLisp)  - Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
+- [Export Attributes To CSV](Samples/ExportAttributesToCSV/AutoLisp)  - Exports a feature layers attributes to a CSV file.
 - [Rotate Blocks to Field Value](Samples/RotateBlocksFromField/AutoLisp) - Rotates block inserts to a rotation value stored as an attribute.
 - [Update COGO Points From Field (Civil 3D)](Samples/UpdateCOGOPointsFromField/AutoLisp) - Updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes. 
 
@@ -50,7 +50,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
-Copyright 2016 Esri
+Copyright 2024 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
