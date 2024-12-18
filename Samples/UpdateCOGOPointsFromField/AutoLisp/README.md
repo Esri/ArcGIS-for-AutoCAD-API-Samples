@@ -11,7 +11,7 @@ This example updates Civil 3D COGO point descriptions for trees in Redlands, Cal
 
 
 ## Use the sample
-1. Open the [UpdateCOGOPoints_Sample.dwg](UpdateCOGOPoints_Sample.dwg) file and load the [UpdateCOGOPointsFromField.lsp](UpdateCOGOPointsFromField.lsp) file.
+1. Open the [UpdateCOGOPoints_Sample.dwg](UpdateCOGOPoints_Sample.dwg) drawing and load the [UpdateCOGOPointsFromField.lsp](UpdateCOGOPointsFromField.lsp) file.
 
 2. To get familiar with the data explore the attribute table and the prospector. The points are gathered in a point group with a tree point style and a point label style that displays point numbers and descriptions. The point group property overrides are set to maintain the tree point style and the point label style. 
 
@@ -19,7 +19,7 @@ This example updates Civil 3D COGO point descriptions for trees in Redlands, Cal
 
    
 
-3. To update the COGO point descriptions run ```updateCOGOPointsFromField``` command. Use the "TreeGenus" to update the values on the points from the "TreeGenus" layer. 
+3. To update the COGO point descriptions run the ```updateCOGOPointsFromField``` command. Use the "TreeGenus" field to update the values on the points from the "TreeGenus" layer. 
 
    
 
@@ -38,10 +38,6 @@ This example updates Civil 3D COGO point descriptions for trees in Redlands, Cal
 ## Sample AutoLISP
 ArcGIS for AutoCAD AutoLISP sample UpdateCOGOPointsFromField.lsp
 ``` LISP
-;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-; This sample routine updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes. 
-;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 (defun c:updateCOGOPointsFromField ()
   
   ; Get the target feature layer and attribute field for COGO point descriptions, and select the feature layer
