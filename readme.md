@@ -47,7 +47,12 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 
 ## Contributing
 
-Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
+Esri welcomes contributions to our open source projects on GitHub. Please see our guidelines for contributing.
+
+We do not currently accept new PRs for full features (e.g. a new sample or a significant change to the samples) but we encourage you to submit issues for:
+
+Bugs you find while using the samples.
+Enhancement requests for new code samples or new functionality in the sample viewer
 
 ## Licensing
 Copyright 2024 Esri
