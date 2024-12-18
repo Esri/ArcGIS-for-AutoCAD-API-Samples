@@ -5,7 +5,7 @@ This sample calculates the values of a new attribute field by applying a mathema
 ![Cover_](../../../Resources/Images/CalculateNewField-1.png)
 
 ## Description
-This example extracts elevation values in meters from a current field, creates a new field, and converts these values to feet. The drawing includes a document feature layer for contour lines in Riverside, CA. 
+This example reads elevation values in meters from an exisitng attribute field, creates a new field, and converts these values to feet. The drawing includes a document feature layer for contour lines in Riverside, CA. 
 
 
 
