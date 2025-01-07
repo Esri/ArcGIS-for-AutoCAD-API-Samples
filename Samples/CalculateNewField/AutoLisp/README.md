@@ -10,7 +10,7 @@ This example reads elevation values in meters from an exisitng attribute field, 
 
 
 ## Use the sample
-1. Open the [UnitConversion_Sample.dwg](UnitConversion_Sample.dwg) drawing and load the [UnitConversion.lsp](UnitConversion/UnitConversion.lsp)  file.
+1. Open the [UnitConversion_Sample.dwg](UnitConversion_Sample.dwg) drawing and load the [UnitConversion.lsp](UnitConversion.lsp)  file.
 
 2. To better understand our sample drawing, open the attribute table of the "Contour_lines" layer and review the list of attributes and field names.
 
