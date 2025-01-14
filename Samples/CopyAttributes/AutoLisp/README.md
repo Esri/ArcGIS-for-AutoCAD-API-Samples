@@ -12,7 +12,7 @@ The AutoCAD sample drawing contains a document feature layer comprised of polygo
 
 ## Explore the sample
 
-1. Open the CopyAttributes_Sample.dwg and load the CopyAttributes.lsp file
+1. Open the [CopyAttributes_Sample.dwg](CopyAttributes_Sample.dwg) and load the [CopyAttributes.lsp](CopyAttributes.lsp) file
 
 2. Add a new house to our housing plan by drawing a closed polyline on the AutoCAD layer "Houses"
 
