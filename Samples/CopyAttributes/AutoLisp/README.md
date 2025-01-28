@@ -29,7 +29,7 @@ The AutoCAD sample drawing contains a document feature layer comprised of polygo
 
 6. Select your new house as the destination entity. 
 
-7. Either open the attribute table or choose Identify from the ArcGIS for AutoCAD ribbon to see the attributes on your new house. From here you can update the number of bedroom or any other additional changes you might want. 
+7. Either open the attribute table or choose Identify from the ArcGIS for AutoCAD ribbon to see the attributes on your new house. From here you can update the number of bedrooms or any other additional changes you might want. 
 
    ![AfterAttributes_](../../../Resources/Images/CopyAttributes-5.png)
 
@@ -57,17 +57,17 @@ CopyAttributes.lsp
   (setq featureLayer (getstring "Enter the Feature Layer name: "))
   
   ; Gather attributes from the source entity
-  (setq sourceEntity (car(entsel "Select the source entity: ")))
+  (setq sourceEntity (car (entsel "Select the source entity: ")))
   (setq sourceAttributes (esri_attributes_get sourceEntity ))
   
   ; Assign the attributes to the destination entity
-  (setq destEntity (car(entsel "\n Select the destination entity: ")))
+  (setq destEntity (car (entsel "\n Select the destination entity: ")))
   (esri_attributes_set destEntity featureLayer sourceAttributes)
 )
 ```
 
 ## Relevant  API
 
-- [esri_attributes_get](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/esri-attributes-get.htm) – This function gets an associated list of the field names and their attribute value.
+- [esri_attributes_get](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/esri-attributes-get.htm) – This function gets an associated list of the field names and their attribute values.
 
 - [esri_attributes_set](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/esri-attribute-set.htm) – This function adds or modifies feature attributes on an entity of a feature layer.
