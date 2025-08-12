@@ -2,7 +2,7 @@
 
 This sample copies the ArcGIS for AutoCAD attributes from one entity and adds them to another.
 
-![image](https://github.com/user-attachments/assets/8fa32b9b-9b8e-47c8-bdf1-617902c28c52)
+<img width="696" height="474" alt="copyattributes" src="https://github.com/user-attachments/assets/2571b4df-27ab-45fa-81a6-eb13f9641202" />
 
 
 ## Description
