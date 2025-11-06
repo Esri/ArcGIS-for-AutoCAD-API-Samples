@@ -41,7 +41,7 @@
     (setq originValue (cdr (car fieldAttributeOrigin)))        
     (cond ((= (type originValue) 'STR) (setq originValue (atof originValue))))
     
-    ; Multiple the source attribute by the conversion factor and set it as the new field value. 
+    ; Multiply the source attribute by the conversion factor and set it as the new field value. 
     (setq destValue (* multiplier originValue))
     (esri_attributes_set
       entName
