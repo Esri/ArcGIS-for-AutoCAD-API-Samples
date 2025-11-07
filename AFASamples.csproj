@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Platforms>x64</Platforms>
+    <RootNamespace>AFASamples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoCAD.NET" Version="25.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App"></FrameworkReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AFANet">
+      <HintPath>C:\Program Files\Autodesk\ApplicationPlugins\ArcGISForAutoCAD.Bundle\Contents\v440_R25\AFANet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+<!-- If not using Civil 3d, the following ItemGroup can be omitted -->
+<!-- Adjust the HintPath as needed if the installed version of Civil is not 2026-->
+  <ItemGroup>
+    <Reference Include="AecBaseMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\ACA\AecBaseMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AeccDbMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2026\C3D\AeccDbMgd.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

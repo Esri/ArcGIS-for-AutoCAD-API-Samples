@@ -1,8 +1,8 @@
 # ArcGIS for AutoCAD API Samples
 
-![samples_header](./Resources/Images/samples_header.png)
+![NewCoverPhoto](Resources/Images/Cover.png)
 
-Welcome to our collection of samples that demonstrate the capabilities of the ArcGIS for AutoCAD API. This projects goal is to inspire you to develop your own ArcGIS for AutoCAD customizations, enhancing your projects and workflows.
+Welcome to our collection of samples that demonstrate the capabilities of the ArcGIS for AutoCAD API. This project's goal is to inspire you to develop your own ArcGIS for AutoCAD customizations, enhancing your projects and workflows.
 
 Below you will find a series of samples that demonstrate how to use the ArcGIS for AutoCAD API methods to automate common workflows using real world examples. Each sample includes the following:
 
@@ -18,17 +18,24 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 
   
 ## Samples
-- [Calculate New Field](Samples/CalculateNewField/AutoLisp) - Calculates the values of a new attribute field by applying a mathematical expression onto the values of other fields.
-- [Copy Attributes](Samples/CopyAttributes/AutoLisp)  - Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
-- [Export Attributes To CSV](Samples/ExportAttributesToCSV/AutoLisp)  - Exports a feature layers attributes to a CSV file.
-- [Rotate Blocks to Field Value](Samples/RotateBlocksFromField/AutoLisp) - Rotates block inserts to a rotation value stored as an attribute.
-- [Update COGO Points From Field (Civil 3D)](Samples/UpdateCOGOPointsFromField/AutoLisp) - Updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes. 
+- [Calculate New Field](Samples/CalculateNewField/) - Calculates the values of a new attribute field by applying a mathematical expression onto the values of other fields.
+- [Copy Attributes](Samples/CopyAttributes/)  - Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
+- [Export Attributes to CSV](Samples/ExportAttributesToCSV/)  - Exports a feature layers attributes to a CSV file.
+- [Rotate Blocks to Field Value](Samples/RotateBlocksFromField/) - Rotates block inserts to a rotation value stored as an attribute.
+- [Update COGO Points from Field (Civil 3D)](Samples/UpdateCOGOPointsFromField/) - Updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes. 
 
-## Instructions
-
+## AutoLISP Instructions
 1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview)
 2. Download the LSP and other files for the selected sample.
 3. Load the LSP file. (Type ```APPLOAD``` in the AutoCAD command line.)
+
+## .NET Instructions
+1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview)
+2. If you want to modify or debug sample code, you can clone this repo.
+3. Open Visual Studio 2022 or higher.
+4. Open the [project file](AFASamples.csproj) in Visual Studio.
+5. Build the solution.
+6. Load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
 
 ## Requirements
 

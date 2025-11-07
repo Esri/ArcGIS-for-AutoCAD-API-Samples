@@ -19,7 +19,7 @@
           (setq attString (strcat attString fieldName ","))
         )
         (setq lineLength (strlen attString))
-        (setq attString (substr attstring 1 (1- lineLength)))
+        (setq attString (substr attString 1 (1- lineLength)))
         (write-line attString csvFile)
 
         
