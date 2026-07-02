@@ -36,8 +36,8 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 2. Clone this repository locally.
 3. Open Visual Studio 2022 or higher.
 4. Open the [project file](AFASamples.csproj) in Visual Studio.
-5. Build the solution.
-6. Load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
+5. Build the solution. (Some samples require code modification.)
+6. In AutoCAD, load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
 
 ## Requirements
 
