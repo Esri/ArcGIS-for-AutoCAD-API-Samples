@@ -33,7 +33,7 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 
 ## .NET Instructions
 1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview)
-2. If you want to modify or debug sample code, you can clone this repo.
+2. Clone this repository locally.
 3. Open Visual Studio 2022 or higher.
 4. Open the [project file](AFASamples.csproj) in Visual Studio.
 5. Build the solution.
