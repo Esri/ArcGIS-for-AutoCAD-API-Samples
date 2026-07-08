@@ -20,6 +20,7 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 ## Samples
 - [Alignment to M-Aware Line (Civil 3D)](https://github.com/Esri/ArcGIS-for-AutoCAD-API-Samples/tree/main/Samples/AlignmentToMPolyline/NET) (.NET Only) - Generates a Polyline2d feature with M-Values from an Autodesk Civil 3D horizontal alignment.
 - [Calculate New Field](Samples/CalculateNewField/) - Calculates the values of a new attribute field by applying a mathematical expression onto the values of other fields.
+- [Change Block Symbol from Field](Samples/ChangeBlockSymbolFromField/) - Applies different block symbols to points or block references based on an attribute field.
 - [Copy Attributes](Samples/CopyAttributes/)  - Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
 - [Copy Object Data to Fields](Samples/CopyObjectDataToFields/AutoLisp) - Copies the Object Data from a feature entity to the existing attribute fields of the feature layer.
 - [Export Attributes to CSV](Samples/ExportAttributesToCSV/)  - Exports a feature layers attributes to a CSV file.
