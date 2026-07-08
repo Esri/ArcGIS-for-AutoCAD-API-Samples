@@ -1,5 +1,5 @@
-# Rotate Blocks to Field Value
-This sample routine rotates block inserts to a rotation value stored as an attribute.
+# Rotate Blocks to Field Values
+This sample routine rotates block inserts based on rotation values stored as attributes.
 
 ![Cover_](../../../Resources/Images/rotateBlocks-1.png)
 
