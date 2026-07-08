@@ -23,9 +23,10 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 - [Change Block Symbol from Field](Samples/ChangeBlockSymbolFromField/) - Applies different block symbols to points or block references based on an attribute field.
 - [Copy Attributes](Samples/CopyAttributes/)  - Copies the ArcGIS for AutoCAD attributes from one entity and applies them to another.
 - [Copy Object Data to Fields](Samples/CopyObjectDataToFields/AutoLisp) - Copies the Object Data from a feature entity to the existing attribute fields of the feature layer.
-- [Export Attributes to CSV](Samples/ExportAttributesToCSV/)  - Exports a feature layers attributes to a CSV file.
+- [Export Attributes to CSV](Samples/ExportAttributesToCSV/)  - Exports a feature layer's attributes to a CSV file.
 - [Label from Multiple Fields](Samples/LabelFromMultipleFields/)  - Concatenates multiple ArcGIS attribute values into one MText entity.
-- [Rotate Blocks to Field Value](Samples/RotateBlocksFromField/) - Rotates block inserts to a rotation value stored as an attribute.
+- [Rotate Blocks to Field Values](Samples/RotateBlocksFromField/) - Rotates block inserts based on rotation values stored as attributes.
+- [Rotate Labels to Field Values](Samples/RotateLabelsFromField/) - Rotates labels based on rotation values stored as attributes.
 - [Update COGO Points from Field (Civil 3D)](Samples/UpdateCOGOPointsFromField/) - Updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes.
 
 ## AutoLISP Instructions
