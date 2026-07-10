@@ -30,17 +30,18 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 - [Update COGO Points from Field (Civil 3D)](Samples/UpdateCOGOPointsFromField/) - Updates Autodesk Civil 3D COGO point descriptions with values from ArcGIS attributes.
 
 ## AutoLISP Instructions
-1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview)
+1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview).
 2. Download the LSP and other files for the selected sample.
 3. Load the LSP file. (Type ```APPLOAD``` in the AutoCAD command line.)
 
 ## .NET Instructions
-1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview)
+1. [Download ArcGIS for AutoCAD](https://www.esri.com/en-us/arcgis/products/arcgis-for-autocad/overview).
 2. Clone this repository locally.
 3. Open Visual Studio 2022 or higher.
 4. Open the [project file](AFASamples.csproj) in Visual Studio.
-5. Build the solution. (Some samples require code modification.)
-6. In AutoCAD, load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
+5. If building on a machine that does not have Civil 3D 2026 installed, update the project file ItemGroup where that version is referenced. (If Civil 3D is not installed, remove the Alignment to M-Aware Line sample to avoid build errors).
+6. Build the solution. (Some samples require code modification.)
+7. In AutoCAD 2025 or higher, load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
 
 ## Requirements
 

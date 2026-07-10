@@ -22,11 +22,10 @@ This example rotates asset ID labels on water junctions in Naperville, Illinois.
       ![After1_Pic_](../../../Resources/Images/rotateLabels-3.png)
 
 ## How it works
-1. Gets the name of the feature layer, name of the attribute field with label values, and the name of the attribute field with rotation values from the user
-2. Uses [```FeatureLayer.Select```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurelayerselect-net.htm) to create a selection set of each entity in the feature layer 
-3. Uses [```Attributes.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/attributesget-net.htm) to retrieve the rotation value from the selected field for each entity
-4. Uses [```FeatureLabel.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/labelget-net.htm) to retrieve the entity name of the label
-5. Sets the rotation value of the label to the rotation value from the field (must first be converted to radians)
+1. Uses [```FeatureLayer.Select```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurelayerselect-net.htm) to create a selection set of each entity in the feature layer 
+2. Uses [```Attributes.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/attributesget-net.htm) to retrieve the rotation value from the selected field for each entity
+3. Uses [```FeatureLabel.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/labelget-net.htm) to retrieve the entity name of the label
+4. Sets the rotation value of the label to the rotation value from the field (must first be converted to radians)
 
 ## Relevant API
 

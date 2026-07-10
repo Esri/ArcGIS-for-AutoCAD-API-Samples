@@ -20,10 +20,9 @@ This example changes door symbols on a commercial building in Redlands, Californ
     ![After_Pic](../../../Resources/Images/changeBlocks-3.png)
 
 ## How it works
-1. Gets the name of the feature layer and the field from the user
-2. Uses [```FeatureLayer.Select```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurelayerselect-net.htm) to create a selection set of each entity in the feature layer 
-3. Uses [```Attributes.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/attributesget-net.htm) to read the **DoorType** field value from every point
-4. Sets the **DoorType** attribute value as the block reference using [```Feature.ChangeElementType```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurechangeelementtype-net.htm)
+1. Uses [```FeatureLayer.Select```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurelayerselect-net.htm) to create a selection set of each entity in the feature layer 
+2. Uses [```Attributes.Get```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/attributesget-net.htm) to read the **DoorType** field value from every point
+3. Sets the **DoorType** attribute value as the block reference using [```Feature.ChangeElementType```](https://doc.arcgis.com/en/arcgis-for-autocad/latest/commands-api/featurechangeelementtype-net.htm)
 
 ## Relevant API
 
