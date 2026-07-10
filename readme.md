@@ -39,7 +39,7 @@ Below you will find a series of samples that demonstrate how to use the ArcGIS f
 2. Clone this repository locally.
 3. Open Visual Studio 2022 or higher.
 4. Open the [project file](AFASamples.csproj) in Visual Studio.
-5. If building on a machine that does not have Civil 3D 2026 installed, update the project file ItemGroup where that version is referenced. (If Civil 3D is not installed, remove the Alignment to M-Aware Line sample to avoid build errors).
+5. If building on a machine that does not have Civil 3D 2026 installed, update the project file ItemGroup where that version is referenced. (If Civil 3D is not installed, remove the Alignment to M-Aware Line sample to avoid build errors.)
 6. Build the solution. (Some samples require code modification.)
 7. In AutoCAD 2025 or higher, load the .NET dll created by Visual Studio. (Type ```NETLOAD``` in the AutoCAD command line.)
 
